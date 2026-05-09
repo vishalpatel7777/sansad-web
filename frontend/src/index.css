@@ -1,0 +1,8 @@
+/* Entry stylesheet. Import order: Tailwind first, then our globals.
+   Tailwind CSS v4 uses @import "tailwindcss" (no config directive needed when
+   using the @tailwindcss/vite plugin — the plugin handles config resolution). */
+
+@import "tailwindcss";
+
+/* Centralized design tokens and base resets */
+@import "./styles/globals.css";

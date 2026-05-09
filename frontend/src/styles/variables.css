@@ -1,0 +1,30 @@
+/* Design tokens as CSS custom properties.
+   These mirror tailwind.config.js — keep both in sync when changing values. */
+
+:root {
+  /* Brand colors */
+  --color-primary: #1d4cd7;
+  --color-sovereign-blue: #1d4cd7;
+
+  /* Backgrounds */
+  --color-bg-light: #f6f6f8;
+  --color-bg-dark: #111521;
+
+  /* Text */
+  --color-ink-gray: #0e111b;
+
+  /* Typography */
+  --font-display: "Public Sans", sans-serif;
+
+  /* Border radius */
+  --radius-default: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+
+  /* Spacing scale (Tailwind default — for reference) */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-4: 1rem;
+  --spacing-8: 2rem;
+}

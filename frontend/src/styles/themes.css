@@ -1,0 +1,15 @@
+/* Theme overrides.
+   Dark-mode or alternate-theme token overrides go here.
+   Tailwind's dark: variant handles most theming — add manual overrides only when needed. */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Override tokens for system dark mode if needed in the future */
+  }
+}
+
+/* .theme-dark class can be toggled via JS for manual dark mode */
+.theme-dark {
+  --color-bg-light: #111521;
+  --color-bg-dark: #f6f6f8;
+}

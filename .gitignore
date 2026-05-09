@@ -1,0 +1,59 @@
+# ── Directories not tracked ───────────────────────────────────────────────────
+report/
+extra/
+.claude/
+
+# ── Node ──────────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Build / dist ──────────────────────────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+
+# ── Vite / frontend cache ─────────────────────────────────────────────────────
+.vite/
+frontend/.vite/
+
+# ── Test coverage ─────────────────────────────────────────────────────────────
+coverage/
+frontend/coverage/
+*.lcov
+
+# ── Python virtual environments ───────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+Rajya_sabha_api/venv/
+Rajya_sabha_api/.venv/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.local
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

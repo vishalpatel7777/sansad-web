@@ -1,0 +1,38 @@
+/* Global styles entry point.
+   Import order matters: variables → Tailwind → themes → component overrides.
+   src/index.css imports this file; do not import Tailwind directly in index.css again. */
+
+@import "./variables.css";
+@import "./themes.css";
+
+/* Base resets and global typography */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-display);
+  background-color: var(--color-bg-light);
+  color: var(--color-ink-gray);
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility: visually hidden but accessible to screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
