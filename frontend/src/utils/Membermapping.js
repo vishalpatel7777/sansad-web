@@ -66,7 +66,7 @@ export async function preloadMemberCache() {
     try {
       const response = await getMembers();
       memberCache = response?.data ?? [];
-      console.log(`âœ“ Member cache loaded: ${memberCache.length} members`);
+      console.log(` Member cache loaded: ${memberCache.length} members`);
     } catch (error) {
       console.error("Failed to preload member cache:", error);
       memberCache = [];
